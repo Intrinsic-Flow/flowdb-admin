@@ -1,7 +1,7 @@
 const userTrans = {
-  createTitle: 'Create Milvus User',
-  updateTitle: 'Update Milvus User',
-  user: 'Milvus User',
+  createTitle: 'Create Nuriva User',
+  updateTitle: 'Update Nuriva User',
+  user: 'Nuriva User',
   deleteWarning: 'You are trying to drop user. This action cannot be undone.',
   oldPassword: 'Current Password',
   newPassword: 'New Password',

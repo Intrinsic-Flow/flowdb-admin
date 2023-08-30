@@ -46,6 +46,7 @@ const getStyles = makeStyles((theme: Theme) => ({
 }));
 
 const capitalize = (s: string) => {
+  if (s.toLowerCase() == "milvus") {s = "nurivadb";}
   return s.charAt(0).toUpperCase() + s.slice(1);
 };
 

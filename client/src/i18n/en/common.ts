@@ -1,7 +1,7 @@
 const commonTrans = {
   attu: {
-    admin: 'Attu',
-    address: 'Milvus Address',
+    admin: 'NurivaDB',
+    address: 'NurivaDB Address',
     unAuth: 'Username or password is not correct',
     username: 'Username',
     password: 'Password',
@@ -42,7 +42,7 @@ const commonTrans = {
   community: {
     hi: 'Hi, there!',
     growing: 'Our growing community is here!',
-    question: 'Have question about Milvus?',
+    question: 'Have question about NurivaDB?',
     qr: 'Scan WeChat QR code to get access',
     more: 'More Channels to Explore',
     join: 'Join our growing social community today',

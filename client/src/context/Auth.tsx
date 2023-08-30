@@ -38,7 +38,7 @@ export const AuthProvider = (props: { children: React.ReactNode }) => {
   }, [setAddress]);
 
   useEffect(() => {
-    document.title = address ? `${address} - Attu` : 'Attu';
+    document.title = address ? `${address} - Nuriva` : 'Nuriva';
   }, [address]);
 
   return (

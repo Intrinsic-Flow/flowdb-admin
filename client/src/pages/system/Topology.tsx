@@ -552,7 +552,7 @@ const Topo = (props: any) => {
             x={`${START_DRAW_X}`}
             y={`${START_DRAW_Y}`}
           >
-            Milvus
+            NurivaDB
           </text>
         </g>
       </svg>

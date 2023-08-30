@@ -1,9 +1,9 @@
 {
-  "name": "attu",
+  "name": "nuriva",
   "version": "0.1.0",
-  "description": "Attu",
+  "description": "NurivaDB",
   "license": "Apache-2.0",
-  "bugs": "https://github.com/zilliztech/attu/issues",
+  "bugs": "https://github.com/Intrinsic-Flow/flowdb-admin.git",
   "release": {
     "branches": [
       "main",

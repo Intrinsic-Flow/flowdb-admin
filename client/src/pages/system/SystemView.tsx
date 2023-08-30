@@ -15,7 +15,7 @@ import { parseJson } from '../../utils/Metric';
 
 const getStyles = makeStyles((theme: Theme) => ({
   root: {
-    fontFamily: 'Roboto',
+    fontFamily: 'Arial',
     margin: '14px 40px',
     position: 'relative',
     height: 'fit-content',

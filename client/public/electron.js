@@ -130,7 +130,7 @@ function createWindow() {
     width: 1200,
     height: 800,
     webPreferences: { devTools: false },
-    icon: './attu.png',
+    icon: './logoV.png',
   });
   // mainWindow.maximize();
   // mainWindow.show();

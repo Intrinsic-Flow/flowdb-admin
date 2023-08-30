@@ -106,7 +106,7 @@ export const AuthForm = (props: any) => {
     return [
       ...noAuthConfigs,
       {
-        label: `Milvus ${attuTrans.username} ${attuTrans.optional}`,
+        label: `NurivaDB ${attuTrans.username} ${attuTrans.optional}`,
         key: 'username',
         onChange: (value: string) => handleInputChange('username', value),
         variant: 'filled',
@@ -117,7 +117,7 @@ export const AuthForm = (props: any) => {
         defaultValue: form.username,
       },
       {
-        label: `Milvus ${attuTrans.password} ${attuTrans.optional}`,
+        label: `NurivaDB ${attuTrans.password} ${attuTrans.optional}`,
         key: 'password',
         onChange: (value: string) => handleInputChange('password', value),
         variant: 'filled',

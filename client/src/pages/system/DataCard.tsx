@@ -213,7 +213,7 @@ const DataCard: FC<DataCardProps & React.HTMLAttributes<HTMLDivElement>> =
       <div className={classes.root}>
         <div className={classes.title}>
           <div>
-            <span className={classes.rootName}>Milvus / </span>
+            <span className={classes.rootName}>NurivaDB / </span>
             <span className={classes.childName}>{node?.infos?.name}</span>
           </div>
           {/* <div className={classes.ip}>{`${t('thIP')}:${infos?.ip || ''}`}</div> */}

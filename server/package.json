@@ -1,15 +1,15 @@
 {
-  "name": "attu",
-  "version": "2.2.6",
+  "name": "nuriva",
+  "version": "0.1.7",
   "license": "MIT",
   "author": {
-    "name": "zilliz",
-    "email": "zilliz@zilliz.com"
+    "name": "NurivaDB",
+    "email": "agow@nurivatech.ai"
   },
-  "description": "Attu help to manage Milvus easily",
+  "description": "Flow helps to manage NurivaDB easily",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zilliztech/attu"
+    "url": "https://github.com/Intrinsic-Flow/flowdb-admin.git"
   },
   "dependencies": {
     "@zilliz/milvus2-sdk-node": "^2.2.17",
@@ -63,6 +63,7 @@
     "@types/supertest": "^2.0.11",
     "@types/swagger-jsdoc": "^6.0.1",
     "@types/swagger-ui-express": "^4.1.3",
+    "@types/validator": "^13.11.1",
     "@types/ws": "^8.2.0",
     "electron": "^21.0.1",
     "electron-builder": "^23.6.0",
@@ -110,7 +111,7 @@
   "homepage": "./",
   "main": "electron-starter.js",
   "build": {
-    "appId": "milvus",
+    "appId": "nuriva",
     "directories": {
       "output": "electron-app"
     },
@@ -133,7 +134,7 @@
       "target": "dmg"
     },
     "win": {
-      "icon": "./build/attu.png",
+      "icon": "./build/logoV.png",
       "target": [
         {
           "target": "nsis"

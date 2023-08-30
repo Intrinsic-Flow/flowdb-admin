@@ -1,9 +1,9 @@
 {
-  "name": "attu-client",
+  "name": "nuriva-client",
   "version": "2.0.0",
-  "description": "Attu UI Client",
+  "description": "Nuriva UI Client",
   "license": "Apache-2.0",
-  "bugs": "https://github.com/zilliztech/attu/issues",
+  "bugs": "https://github.com/Intrinsic-Flow/issues",
   "private": true,
   "dependencies": {
     "@date-io/dayjs": "1.x",

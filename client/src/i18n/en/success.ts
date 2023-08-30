@@ -1,5 +1,5 @@
 const successTrans = {
-  connect: 'Connection to milvus successful',
+  connect: 'Connection to NurivaDB successful',
   create: `{{name}} has been created.`,
   load: `{{name}} is loading.`,
   delete: `{{name}} successfully dropped.`,
